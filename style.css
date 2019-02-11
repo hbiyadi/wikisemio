@@ -1,0 +1,329 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(police/Happy_Ending.ttf);
+}
+
+
+body{padding: 0;
+margin: 0;
+background-color: #ECECEC;}
+
+html {padding: 0;
+margin: 0;
+overflow-y: hidden;
+}
+
+h1 {padding: 100;
+margin: 100;
+text-align: center;
+font-size: 1.2em;
+color: #286DA8}
+
+h2 {font-size: 1em;
+	color: #6F9D20;
+	text-shadow: 1px 1px #F2F2F2;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+}
+
+header{
+	position: relative;
+	display: flex;
+	align-items: center;
+	background: linear-gradient(#ECECEC, #D1D1D1);
+	color: #77A22F;
+	padding: 1vh;
+	padding-left: 10em;
+
+}
+
+#map{
+	height: 94vh;
+	width: 65%;
+	position: relative;
+}
+
+#main {background-color: #ECECEC;
+	display: flex;
+	position: relative;
+}
+
+#controle{
+	width: 35%;
+	display: flex;
+	flex-direction: column;}
+#controle1{
+	overflow-y: auto;
+	height: 86vh;
+}
+#controle2{
+	height: 10vh;	
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+#legend{position: absolute;
+	right: 20px;
+	top: 20px;	}
+
+#logo{position: absolute;
+	left: 20px;}
+.logo{width: 4em;
+height: auto;}
+
+p{
+	margin: 0;
+}
+
+
+table
+{
+    border-collapse: collapse;
+}
+td, th /* Mettre une bordure sur les td ET les th */
+{
+    border: 1px solid black;
+}
+
+.query {color: #286DA8;}
+
+sub{color: red}
+
+#divboutonwiki {
+	text-align: right;
+	padding-right: 4%;
+}
+
+#boutonwiki {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: white;
+    color: black;
+    border: 2px solid #286DA8;
+    border-radius: 8px;
+    margin-bottom: 2vh;
+}
+
+#boutonwiki:hover {
+    background-color: #286DA8;
+    color: white;
+}
+
+.elementform{
+	background-color: white;
+	/*border-radius: 8px;*/
+	margin: 3%;
+	padding: 3%;
+	box-shadow: 1px 1px 1px 1px #DADADA;}
+
+.elementform:hover{    
+	border: 1px solid #286DA8;
+}
+
+#fond{
+	column-count: 2;
+}
+
+
+#supCouches {
+	font-size: 10px;
+    background-color: #DCDCDC;
+    color: black;
+    border-radius: 8px;
+    visibility: hidden;
+}
+
+#supZones {
+	font-size: 10px;
+    background-color: #DCDCDC;
+    color: black;
+    border-radius: 8px;
+    visibility: hidden;
+    }
+
+#legende{position: absolute;
+	left: 20px;
+	bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #286DA8;
+	align-items: center;
+	background-color: white;
+}
+.elemLegende{width: 10em;
+	height: auto;}
+
+
+#acceuil{display: flex;
+	justify-content: space-around;
+	align-items: center;
+height: 100vh;
+font-weight: bold;}
+
+#aide {
+	background-color: grey;
+	background-color: rgba(92, 112, 119, 0.2);
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+	z-index: 3;
+	display: none;
+}
+
+#arrow1 {
+	position: fixed;
+	left: 56%;
+	top: 10%;
+	/*display: none;*/
+}
+#arrow2 {
+	position: fixed;
+	left: 56%;
+	top: 50%;
+	/*display: none;*/
+}
+#arrow3 {
+	position: fixed;
+	left: 56%;
+	top: 72%;
+	/*display: none;*/
+}
+#arrow4 {
+	position: fixed;
+	left: 72%;
+	top: 87%;
+}
+
+#arrow5 {
+	position: fixed;
+	left: 10%;
+	top: 40%;
+	/*display: none;*/
+}
+
+#closeAide{
+	color: white;
+	background: transparent;
+	border: none;
+	font-size: 35px;
+	position: fixed;
+	right: 1%;
+}
+
+#btnAide{
+	background: transparent;
+	border:0;
+}
+#btnLanguage{
+	background: transparent;
+	border:0;
+}
+#btnReload{
+	background: transparent;
+	border:0;
+}
+#btnReload{
+	background: transparent;
+	border:0;
+}
+#returnPage{
+	background: transparent;
+	border:0;
+}
+
+label{
+	margin-bottom: 0;
+}
+
+#cartes{
+	overflow-y: auto;
+	max-height: 300px;
+}
+
+#northArrow{
+	position: absolute;
+	z-index: 2;
+	left: 60%;
+	top: 2%;
+	opacity: 0.5;
+}
+
+#recentrer{
+		border-radius: 0px 10px 10px 0px;
+}
+
+#results{
+	width: 50vh;
+	background-color: rgba(255,255,255, 0.6);
+}
+#search {
+	position: absolute;
+	z-index: 2;
+	left: 5%;
+	top: 2%;
+
+}
+#chargement{
+	position: absolute;
+	z-index: 2;
+	left: 20%;
+	top: 50%;
+	background-color: rgba(255,255,255, 0.6);
+
+}
+
+.aidePolice {font-family: 'myFirstFont' ,Verdana;
+	font-size: 20px;
+	color: #022051;
+	font-weight: bold;}
+
+#ap1 {	position: fixed;
+	left: 31%;
+	top: 15%;
+	}
+#ap2 {	position: fixed;
+	left: 35%;
+	top: 44%;
+	text-align: right;
+	}
+#ap3 {	position: fixed;
+	left: 24%;
+	top: 65%;
+	}
+#ap4 {	position: fixed;
+	left: 15%;
+	top: 89%;
+	}
+#ap5 {	position: fixed;
+	left: 3%;
+	top: 29%;
+	}
+
+#espace {
+	flex: 1
+}
+
+.semioList{
+	color: #a45fb5}
+.autreList{
+	color: #456e7a}
+
+#addr{
+	border-radius: 10px 0px 0px 10px;
+}
+#typeReq {
+	font-size: 10px;
+	color: grey;
+}
+
+#acceuil_gauche {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}

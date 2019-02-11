@@ -1,0 +1,72 @@
+body{
+	font-family:Helvetica, "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif; 
+	font-size:20px;
+	height:99.5%;
+
+}
+
+h1
+{
+	font-size: 60px;
+	color: rgb(169,201,58);
+	text-align: center;
+	font-weight: bold;
+}
+
+table
+{
+    border-collapse: collapse;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 35%;
+}
+
+td , th
+{
+    border: 3px solid black;
+}
+
+th
+{
+	background-color: rgb(7,64,120);
+	color: white;
+}
+
+td
+{
+	text-align: center;
+	font-weight: bold;
+}
+
+
+.retour
+{
+	display: inline-flex;
+	border:none;
+	padding:15px 10px 5px 10px;
+	border-radius:8px;
+	background:rgb(169,201,58);;
+	font:bold 15px "Lucida Grande", Arial, sans-serif;
+	text-decoration: none;
+	position: relative;
+	left: 0;
+	bottom: 100%;
+	top: 0;
+	right: 100%;
+	width: 80px;
+	height: 30px;
+	text-align: center;
+}
+
+.image1
+{
+	display: inline-block;
+	margin-right: 10px;
+	width:21px; 
+	height:23px;
+}
+
+
+

@@ -1,0 +1,3 @@
+rater_1_comment_trouvez-vous_la_qualite_des_donnees_rate.rating
+rater_2_comment_trouvez-vous_le_modele_des_cartes_rate.rating
+rater_3_comment_trouvez-vous_les_couleurs_utilisees_rate.rating

@@ -1,0 +1,9 @@
+==== Wiki TELETIQ ====
+
+**Bienvenue** sur le WIKI du projet TELETIQ.\\
+Pour acceder aux discussions, veuillez choisir  :\\
+^ Couche(s)    | Une ou plusieurs          |
+^ Zone(s)    | Une ou plusieurs (en appuyant sur "SHIFT") |
+^ Thème    | Un seul thème   |
+
+

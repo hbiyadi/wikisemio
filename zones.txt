@@ -1,0 +1,16 @@
+﻿Régions
+regions
+CODE_REG
+Départements
+departements
+CODE_DEPT
+Parc Naturel Régional
+PNR
+ID_MNHN
+Communes
+communes
+INSEE_COM
+Petites Grilles
+sg
+SG
+
