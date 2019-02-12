@@ -56,7 +56,7 @@ if ($connect == 1) // Si le visiteur s'est identifié.
 			$keywords = preg_split("/[\s,]+/", trim($question[$i]));
 			if(trim($les_id[$i]) != "")
 			{
-				$ligne = "rater_".trim($les_id[$i])."_";
+				$ligne = "rater_".preg_replace('/[\x00-\x1F\x80-\xFF]/', '', $les_id[$i])."_";
 				for($j = 0; $j < count($keywords); $j++)
 				{
 					$ligne = $ligne.lcfirst($keywords[$j])."_";
@@ -80,7 +80,7 @@ if ($connect == 1) // Si le visiteur s'est identifié.
 
 else
     {
-        header("location:index.php");
+        header("location:../index.php");
         exit;
     }
 
