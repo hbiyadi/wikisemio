@@ -20,7 +20,7 @@ if ($connect == 1) // Si le visiteur s'est identifié.
 	  $les_id[] = fgets($fichier);
 	  $question[] = fgets($fichier);
 	}
-	fclose($myfile);
+	fclose($fichier);
 
 	//$question = file("questions.txt");
 	$top = file("top.txt");
